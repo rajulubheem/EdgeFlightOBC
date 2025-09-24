@@ -1,0 +1,56 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# STM32 Build outputs
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.srec
+*.list
+*.lss
+*.sym
+*.axf
+
+# IDE specific files
+.settings/
+Debug/
+Release/
+*.launch
+.cproject
+.project
+.mxproject
+
+# Keil MDK-ARM specific
+*.uvguix.*
+*.scvd
+*.dep
+*.bak
+Test/
+Objects/
+Listings/
+DebugConfig/
+RTE/
+
+# Build directories
+build/
+obj/
+out/
+target/
+
+# Log files
+*.log
+
+# Backup files
+*~
+*.swp
+*.swo
+
+# User specific Keil files (keep project files)
+# *.uvoptx - Keep this as it has debug settings
+# *.uvprojx - Keep this as it's the main project file
